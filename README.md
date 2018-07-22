@@ -29,7 +29,7 @@ It helps you mount the `module` of vuex when the `rules` matched `window.locati
   const manager = storeManager.start(rules, store /* other args */) // that's all!
 ```
 * Notice
-When you are using 'vue-router' and the version above '2.8.0',the `hashchange` or `popState` event will not be listened. ([issue: 1807](https://github.com/vuejs/vue-router/issues/1807#issuecomment-336494269))You should invoking `managerInstance.updateStore` in the `beforeEach` hook:
+When you are using 'vue-router' and the version above '2.8.0',the `hashchange` or `popState` event will not be listened. ([issue: 1807](https://github.com/vuejs/vue-router/issues/1807#issuecomment-336494269))You should invoking `manager.updateStore` in the `beforeEach` hook:
 
 ```JavaScript
 router.beforeEach((to, from, next) => {
