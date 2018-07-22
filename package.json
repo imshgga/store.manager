@@ -1,0 +1,43 @@
+{
+  "name": "store.manager",
+  "version": "1.0.0",
+  "description": "A plugin helps you manager your vuex store",
+  "main": "dist/store.manager.js",
+  "umd:main": "dist/store.manager.umd.js",
+  "module": "dist/store.manager.module.js",
+  "scripts": {
+    "build": "rimraf dist/ && cross-env NODE_ENV=production rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imshgga/store-manager.git"
+  },
+  "keywords": [
+    "vuex",
+    "vue"
+  ],
+  "author": "shgga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imshgga/store-manager/issues"
+  },
+  "homepage": "https://github.com/imshgga/store-manager#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-modern-browsers": "^10.0.1",
+    "cross-env": "^5.1.3",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.63.4",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-filesize": "^1.5.0",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-uglify": "^2.0.1",
+    "uglify-es": "^3.3.6"
+  }
+}
