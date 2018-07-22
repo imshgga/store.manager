@@ -1,7 +1,7 @@
 {
   "name": "store.manager",
   "version": "1.0.0",
-  "description": "A plugin helps you manager your vuex store",
+  "description": "A plugin help you manage your vuex store",
   "main": "dist/store.manager.js",
   "umd:main": "dist/store.manager.umd.js",
   "module": "dist/store.manager.module.js",
