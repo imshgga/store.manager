@@ -2,7 +2,7 @@
  * @Author: houshengwei
  * @Date:   2018/07/22
  * @Last modified by:   houshengwei
- * @Last modified time: 2018/07/22
+ * @Last modified time: 2018/07/23
  */
 
 class StoreManager {
@@ -85,9 +85,9 @@ class StoreManager {
         throw new Error('Missing `name` or `module` for rules')
       }
 
-      if (module.namespaced !== false) {
-        module.namespaced = true
-      }
+      // if (module.namespaced !== false) {
+      //   module.namespaced = true
+      // }
 
       if ($store.state[name] === undefined) {
         $store.registerModule(name, module)
