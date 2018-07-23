@@ -40,6 +40,15 @@ router.beforeEach((to, from, next) => {
   })
 ```
 
+### Example
+
+  Clone this repository.
+  ```Bash
+    cd store.manager/examples/withVueRouter
+
+    npm run dev
+  ```
+
 ### License
 
 MIT
